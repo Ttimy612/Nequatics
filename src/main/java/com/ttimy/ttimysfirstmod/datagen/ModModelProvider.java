@@ -23,6 +23,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(Moditems.NEQUATIUM, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(Moditems.RAW_NEQUATIUM, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(Moditems.NEQUATIUM_NUGGET, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModBlocks.NEQUATIC_MECHINE_CORE.asItem(), ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModBlocks.NEQUATIUM_BLOCK.asItem(), ModelTemplates.FLAT_ITEM);
+
 
 
 
