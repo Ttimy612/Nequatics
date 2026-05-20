@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:prismarine_shard",
+    "S": "minecraft:soul_sand"
+  },
+  "pattern": [
+    "PP",
+    "SI"
+  ],
+  "result": {
+    "id": "ttimys-mod:raw_nequatium"
+  }
+}

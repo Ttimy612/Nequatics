@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:heart_of_the_sea",
+    "C": "minecraft:prismarine_crystals",
+    "P": "minecraft:piston",
+    "Q": "minecraft:quartz",
+    "R": "ttimys-mod:nequatium",
+    "S": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    "SQS",
+    "RBR",
+    "CPC"
+  ],
+  "result": {
+    "id": "ttimys-mod:nequatic_mechine_core"
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ttimysmod",
+	"version": "${version}",
+	"name": "Ttimys mod",
+	"description": "",
+	"authors": [
+		"Ttimy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ttimys-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.ttimy.ttimysfirstmod.Ttimymod"
+		],
+		"fabric-datagen": [
+			"com.ttimy.ttimysfirstmod.TtimyModDataGen"
+		]
+	},
+	"mixins": [
+		"ttimys-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

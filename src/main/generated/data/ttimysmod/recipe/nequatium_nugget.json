@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ttimys-mod:nequatium"
+  ],
+  "result": {
+    "count": 9,
+    "id": "ttimys-mod:nequatium_nugget"
+  }
+}

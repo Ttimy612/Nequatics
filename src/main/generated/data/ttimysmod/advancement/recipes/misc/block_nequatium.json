@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nequatium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ttimys-mod:nequatium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ttimysmod:block_nequatium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nequatium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ttimysmod:block_nequatium"
+    ]
+  }
+}

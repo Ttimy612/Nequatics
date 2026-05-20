@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ttimys-mod:block/nequatic_mechine_core"
+  }
+}
