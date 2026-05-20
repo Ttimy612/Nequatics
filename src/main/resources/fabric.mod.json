@@ -19,7 +19,7 @@
           "com.ttimy.ttimysfirstmod.Ttimymod"
 		],
 		"fabric-datagen": [
-			"com.ttimy.ttimysfirstmod.Ttimymixins"
+			"com.ttimy.ttimysfirstmod.TtimyDataGen"
 		]
 	},
 	"mixins": [
